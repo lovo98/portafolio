@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Kevin Lovos</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!-- <a href="#">Inicio</a> -->
+            <a href="#acerca">Acerca de</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Kevin Lovos</h1>
+            <h2>Programador web</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #ffffff;"></path>
+            </svg></div>
+    </header>
+    <main>
+        <a name="acerca">
+            <section class="contenedor sobre-nosotros">
+                <h2 class="titulo">Acerca de mi</h2>
+                <div class="contenedor-sobre-nosotros">
+                    <img src="img/acercade.jpg" alt="" class="imagen-about-us">
+                    <div class="contenido-textos">
+                        <h3> <span> 1 </span> Kevin Vladimir Lovos Romero </h3>
+                        <p>
+                            Soy un desarrollador FrontEnd mis fuertes son framework angular y librería de React.js. 
+                            Me gusta tomar nuevos retos, poniendo en práctica todo lo aprendido para así tener un crecimiento personal y profesional.
+
+                        </p>
+
+                        <h3> <span> 2 </span> Aprender tecnologias nuevas </h3>
+                        <p>
+                            Me gusta mucho estar al dia con las tecnologias especialmente con javascript, y aprendido tambien un poco de backend con
+                            Java con el framework de spring boot.
+
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </a>
+
+        <a name="proyectos">
+            <section class="portafolio">
+                <div class="contenedor">
+                    <h2 class="titulo">Proyectos</h2>
+                    <div class="galeria-port">
+                        <div class="imagen-port">
+                            <img src="img/react.png" alt="react">
+                            <div class="hover-galeria">
+                                <img src="img/focus.svg" alt="">
+                                <p>Consumiendo API REST</p>
+                                <button class="btn-go" onclick="location.href='https://github.com/lovo98/consumiendo-api-rest-react.js'">Ver</button>
+                            </div>
+                        </div>
+
+                        <div class="imagen-port">
+                            <img src="img/spring.png" alt="springboot">
+                            <div class="hover-galeria">
+                                <img src="img/focus.svg" alt="">
+                                <p>Creación de API REST</p>
+                                <button class="btn-go" onclick="location.href='https://github.com/lovo98/api-rest-persona'">Ver</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </a>
+
+        <a name="servicios">
+            <section class="about-servies">
+                <div class="contenedor">
+                    <h2 class="titulo">Servicios</h2>
+                    <div class="servicio-cont">
+                        <div class="servicio-ind">
+                            <img src="img/ilustracion1.svg" alt="">
+                            <h3>Diseño Web</h3>
+                            <p>Hago maquetaciones de sitios webs haciendo una mejor interaccion con el usuario y asi mismo dinamica</p>
+                        </div>
+                        <div class="servicio-ind">
+                            <img src="img/ilustracion3.svg" alt="">
+                            <h3>Optimización</h3>
+                            <p>Optimizo tu sitio web para una mejor fluidez en cualquier navegador.</p>
+                        </div>
+                        <div class="servicio-ind">
+                            <img src="img/ilustracion4.svg" alt="">
+                            <h3>Diseño adaptable</h3>
+                            <p>Creo tu sitio web adaptable para cualquier dispositivo movil (computadoras, Tables, Moviles)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </a>
+    </main>
+    <footer>
+        <a name="contacto">
+            <div class="contenedor-footer">
+                <div class="content-foo">
+                    <h4>Email</h4>
+                    <p>lovo1998.y@gmail.com</p>
+                </div>
+                <div class="content-foo">
+                    <h4>Ubicación</h4>
+                    <p>El Salvador</p>
+                </div>
+                <div class="content-foo">
+                    <h4>GitHub</h4>
+                    <p>lovo98</p>
+                </div>
+            </div>
+        </a>
+        <h2 class="titulo-final">&copy; Kevin Lovos | Programador web</h2>
+    </footer>
+</body>
+
+</html>
