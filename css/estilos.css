@@ -181,6 +181,7 @@ main .sobre-nosotros{
     border-color: #ffffff;
     color: #ffffff;
     cursor: pointer;
+    border: none;
 }
 
 /* servicios */
@@ -243,6 +244,15 @@ footer {
 
 .content-foo p{
     color: #cccccc
+}
+
+.content-foo p > a{
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.content-foo p > a:hover{
+    text-decoration: underline;
 }
 
 .titulo-final {
